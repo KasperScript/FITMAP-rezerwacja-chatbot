@@ -1,0 +1,912 @@
+{
+  "objects": [
+    {
+      "id": 1,
+      "type": "sala",
+      "name": "Studio Jogi Harmonia",
+      "city": "Warszawa",
+      "activities": [
+        "Joga",
+        "Pilates"
+      ],
+      "price_per_hour": 120,
+      "schedule": [
+        "2025-11-10 18:00-19:00",
+        "2025-11-10 19:00-20:00",
+        "2025-11-12 18:30-19:30",
+        "2025-11-12 20:00-21:00",
+        "2025-11-15 19:00-20:00",
+        "2025-11-15 20:00-21:00",
+        "2025-11-18 18:00-19:00"
+      ]
+    },
+    {
+      "id": 2,
+      "type": "trener",
+      "name": "Trener Anna Kowalska",
+      "city": "Warszawa",
+      "activities": [
+        "Joga",
+        "Stretching"
+      ],
+      "price_per_hour": 150,
+      "schedule": [
+        "2025-11-05 17:00-18:00",
+        "2025-11-05 19:00-20:00",
+        "2025-11-07 18:00-19:00",
+        "2025-11-07 20:00-21:00",
+        "2025-11-09 10:00-11:00",
+        "2025-12-01 19:00-20:00"
+      ]
+    },
+    {
+      "id": 3,
+      "type": "klub",
+      "name": "Klub Fitness Mokotów",
+      "city": "Warszawa",
+      "activities": [
+        "CrossFit",
+        "Joga",
+        "Trening siłowy"
+      ],
+      "price_per_hour": 60,
+      "schedule": [
+        "2025-11-11 18:00-19:00",
+        "2025-11-11 19:00-20:00",
+        "2025-11-11 20:00-21:00",
+        "2025-11-12 08:00-09:00",
+        "2025-11-13 18:00-19:00",
+        "2025-11-13 19:30-20:30",
+        "2025-12-05 19:00-20:00"
+      ]
+    },
+    {
+      "id": 4,
+      "type": "sala",
+      "name": "Centrum Ruchu Spokój",
+      "city": "Warszawa",
+      "activities": [
+        "Joga",
+        "Medytacja"
+      ],
+      "price_per_hour": 90,
+      "schedule": [
+        "2025-12-02 18:00-19:00",
+        "2025-12-02 19:15-20:15",
+        "2025-12-04 18:00-19:00",
+        "2025-12-04 20:00-21:00",
+        "2025-12-06 17:00-18:00",
+        "2025-12-08 19:00-20:00"
+      ]
+    },
+    {
+      "id": 5,
+      "type": "boisko",
+      "name": "Orlik Praga Północ",
+      "city": "Warszawa",
+      "activities": [
+        "Piłka nożna",
+        "Koszykówka"
+      ],
+      "price_per_hour": 80,
+      "schedule": [
+        "2025-11-20 16:00-17:00",
+        "2025-11-20 17:00-18:00",
+        "2025-11-20 18:00-19:00",
+        "2025-11-21 16:00-17:00",
+        "2025-11-21 17:00-18:00"
+      ]
+    },
+    {
+      "id": 6,
+      "type": "trener",
+      "name": "Trener Marek Zając",
+      "city": "Kraków",
+      "activities": [
+        "Tenis"
+      ],
+      "price_per_hour": 140,
+      "schedule": [
+        "2025-11-01 10:00-11:00",
+        "2025-11-01 11:00-12:00",
+        "2025-11-03 14:00-15:00",
+        "2025-11-03 15:00-16:00",
+        "2025-11-05 09:00-10:00"
+      ]
+    },
+    {
+      "id": 7,
+      "type": "klub",
+      "name": "Gym City Kraków",
+      "city": "Kraków",
+      "activities": [
+        "Trening siłowy",
+        "Cardio",
+        "Zumba"
+      ],
+      "price_per_hour": 65,
+      "schedule": [
+        "2025-11-10 17:00-18:00",
+        "2025-11-10 18:00-19:00",
+        "2025-11-12 17:00-18:00",
+        "2025-11-12 19:00-20:00",
+        "2025-11-15 10:00-11:00"
+      ]
+    },
+    {
+      "id": 8,
+      "type": "trener",
+      "name": "Trener Ewa Dąbrowska",
+      "city": "Warszawa",
+      "activities": [
+        "Joga",
+        "Pilates"
+      ],
+      "price_per_hour": 130,
+      "schedule": [
+        "2025-11-14 18:30-19:30",
+        "2025-11-14 19:30-20:30",
+        "2025-11-16 18:00-19:00",
+        "2025-11-16 20:00-21:00",
+        "2025-12-05 18:00-19:00"
+      ]
+    },
+    {
+      "id": 9,
+      "type": "sala",
+      "name": "Sala Baletowa Wola",
+      "city": "Warszawa",
+      "activities": [
+        "Taniec",
+        "Joga"
+      ],
+      "price_per_hour": 100,
+      "schedule": [
+        "2025-11-18 19:00-20:00",
+        "2025-11-18 20:00-21:00",
+        "2025-11-19 18:00-19:00",
+        "2025-11-19 19:00-20:00",
+        "2025-11-20 20:00-21:00"
+      ]
+    },
+    {
+      "id": 10,
+      "type": "boisko",
+      "name": "Boisko Szkolne nr 5",
+      "city": "Gdańsk",
+      "activities": [
+        "Piłka nożna"
+      ],
+      "price_per_hour": 70,
+      "schedule": [
+        "2025-11-08 15:00-16:00",
+        "2025-11-08 16:00-17:00",
+        "2025-11-09 14:00-15:00",
+        "2025-11-09 15:00-16:00",
+        "2025-11-10 18:00-19:00"
+      ]
+    },
+    {
+      "id": 11,
+      "type": "klub",
+      "name": "Fabryka Formy Gdańsk",
+      "city": "Gdańsk",
+      "activities": [
+        "CrossFit",
+        "MMA"
+      ],
+      "price_per_hour": 75,
+      "schedule": [
+        "2025-11-12 18:00-19:00",
+        "2025-11-12 19:00-20:00",
+        "2025-11-14 18:00-19:00",
+        "2025-11-14 20:00-21:00",
+        "2025-12-01 17:30-18:30"
+      ]
+    },
+    {
+      "id": 12,
+      "type": "trener",
+      "name": "Trener Tomek Lis",
+      "city": "Wrocław",
+      "activities": [
+        "Trening siłowy",
+        "Kulturystyka"
+      ],
+      "price_per_hour": 160,
+      "schedule": [
+        "2025-11-02 08:00-09:00",
+        "2025-11-02 09:00-10:00",
+        "2025-11-04 18:00-19:00",
+        "2025-11-04 19:00-20:00",
+        "2025-11-06 07:00-08:00"
+      ]
+    },
+    {
+      "id": 13,
+      "type": "sala",
+      "name": "Joga & Myśli Wrocław",
+      "city": "Wrocław",
+      "activities": [
+        "Joga",
+        "Mindfulness"
+      ],
+      "price_per_hour": 110,
+      "schedule": [
+        "2025-12-01 17:00-18:00",
+        "2025-12-01 18:00-19:00",
+        "2025-12-03 19:00-20:00",
+        "2025-12-03 20:00-21:00",
+        "2025-12-05 18:00-19:00"
+      ]
+    },
+    {
+      "id": 14,
+      "type": "boisko",
+      "name": "Hala Sportowa Ursynów",
+      "city": "Warszawa",
+      "activities": [
+        "Koszykówka",
+        "Siatkówka"
+      ],
+      "price_per_hour": 180,
+      "schedule": [
+        "2025-11-25 18:00-19:30",
+        "2025-11-25 19:30-21:00",
+        "2025-11-26 17:00-18:30",
+        "2025-11-26 18:30-20:00",
+        "2025-11-27 20:00-21:30"
+      ]
+    },
+    {
+      "id": 15,
+      "type": "trener",
+      "name": "Trener Karolina Wójcik",
+      "city": "Poznań",
+      "activities": [
+        "Zumba",
+        "Cardio"
+      ],
+      "price_per_hour": 100,
+      "schedule": [
+        "2025-11-09 18:00-19:00",
+        "2025-11-09 19:00-20:00",
+        "2025-11-11 17:00-18:00",
+        "2025-11-11 18:00-19:00",
+        "2025-11-13 19:00-20:00"
+      ]
+    },
+    {
+      "id": 16,
+      "type": "klub",
+      "name": "Poznań Fight Club",
+      "city": "Poznań",
+      "activities": [
+        "MMA",
+        "Boks"
+      ],
+      "price_per_hour": 80,
+      "schedule": [
+        "2025-11-15 18:00-19:30",
+        "2025-11-15 19:30-21:00",
+        "2025-11-17 17:00-18:30",
+        "2025-11-17 19:00-20:30",
+        "2025-11-19 20:00-21:30"
+      ]
+    },
+    {
+      "id": 17,
+      "type": "sala",
+      "name": "Studio Namaste",
+      "city": "Warszawa",
+      "activities": [
+        "Joga"
+      ],
+      "price_per_hour": 100,
+      "schedule": [
+        "2025-11-21 18:00-19:00",
+        "2025-11-21 19:15-20:15",
+        "2025-11-22 09:00-10:00",
+        "2025-11-23 19:00-20:00",
+        "2025-11-23 20:00-21:00",
+        "2025-11-24 18:30-19:30"
+      ]
+    },
+    {
+      "id": 18,
+      "type": "boisko",
+      "name": "Orlik Bemowo",
+      "city": "Warszawa",
+      "activities": [
+        "Piłka nożna"
+      ],
+      "price_per_hour": 90,
+      "schedule": [
+        "2025-12-08 16:00-17:00",
+        "2025-12-08 17:00-18:00",
+        "2025-12-08 18:00-19:00",
+        "2025-12-09 19:00-20:00",
+        "2025-12-09 20:00-21:00"
+      ]
+    },
+    {
+      "id": 19,
+      "type": "trener",
+      "name": "Trener Michał Jankowski",
+      "city": "Warszawa",
+      "activities": [
+        "CrossFit",
+        "Trening siłowy"
+      ],
+      "price_per_hour": 180,
+      "schedule": [
+        "2025-11-10 07:00-08:00",
+        "2025-11-10 08:00-09:00",
+        "2025-11-11 18:00-19:00",
+        "2025-11-11 19:00-20:00",
+        "2025-11-12 17:00-18:00"
+      ]
+    },
+    {
+      "id": 20,
+      "type": "klub",
+      "name": "Active Lady Club",
+      "city": "Warszawa",
+      "activities": [
+        "Pilates",
+        "Joga",
+        "Zumba"
+      ],
+      "price_per_hour": 70,
+      "schedule": [
+        "2025-11-28 17:00-18:00",
+        "2025-11-28 18:00-19:00",
+        "2025-11-28 19:00-20:00",
+        "2025-11-28 20:00-21:00",
+        "2025-11-29 18:00-19:00",
+        "2025-11-29 19:00-20:00"
+      ]
+    },
+    {
+      "id": 21,
+      "type": "boisko",
+      "name": "Korty Tenisowe Legia",
+      "city": "Warszawa",
+      "activities": [
+        "Tenis"
+      ],
+      "price_per_hour": 120,
+      "schedule": [
+        "2025-11-05 10:00-11:00",
+        "2025-11-05 11:00-12:00",
+        "2025-11-05 12:00-13:00",
+        "2025-11-06 14:00-15:00",
+        "2025-11-06 15:00-16:00"
+      ]
+    },
+    {
+      "id": 22,
+      "type": "sala",
+      "name": "Loft Joga Centrum",
+      "city": "Kraków",
+      "activities": [
+        "Joga"
+      ],
+      "price_per_hour": 95,
+      "schedule": [
+        "2025-11-30 18:00-19:00",
+        "2025-11-30 19:00-20:00",
+        "2025-12-01 17:00-18:00",
+        "2025-12-01 18:00-19:00",
+        "2025-12-01 19:30-20:30"
+      ]
+    },
+    {
+      "id": 23,
+      "type": "trener",
+      "name": "Trener Agata Wilk",
+      "city": "Gdańsk",
+      "activities": [
+        "Pływanie",
+        "Cardio"
+      ],
+      "price_per_hour": 130,
+      "schedule": [
+        "2025-11-03 07:00-08:00",
+        "2025-11-03 08:00-09:00",
+        "2025-11-05 17:00-18:00",
+        "2025-11-05 18:00-19:00",
+        "2025-11-07 19:00-20:00"
+      ]
+    },
+    {
+      "id": 24,
+      "type": "klub",
+      "name": "Iron Gym Wrocław",
+      "city": "Wrocław",
+      "activities": [
+        "Trening siłowy",
+        "CrossFit"
+      ],
+      "price_per_hour": 55,
+      "schedule": [
+        "2025-11-13 16:00-17:00",
+        "2025-11-13 17:00-18:00",
+        "2025-11-13 18:00-19:00",
+        "2025-11-13 19:00-20:00",
+        "2025-11-13 20:00-21:00"
+      ]
+    },
+    {
+      "id": 25,
+      "type": "boisko",
+      "name": "Boisko Wielofunkcyjne AWF",
+      "city": "Poznań",
+      "activities": [
+        "Piłka nożna",
+        "Lekkoatletyka"
+      ],
+      "price_per_hour": 110,
+      "schedule": [
+        "2025-11-20 15:00-16:00",
+        "2025-11-20 16:00-17:00",
+        "2025-11-21 16:00-17:00",
+        "2025-11-21 17:00-18:00",
+        "2025-11-22 14:00-15:00"
+      ]
+    },
+    {
+      "id": 26,
+      "type": "trener",
+      "name": "Trener Krzysztof Mazur",
+      "city": "Warszawa",
+      "activities": [
+        "MMA",
+        "Boks",
+        "Trening siłowy"
+      ],
+      "price_per_hour": 200,
+      "schedule": [
+        "2025-11-14 18:00-19:00",
+        "2025-11-14 19:00-20:00",
+        "2025-11-14 20:00-21:00",
+        "2025-11-15 10:00-11:00",
+        "2025-11-15 11:00-12:00"
+      ]
+    },
+    {
+      "id": 27,
+      "type": "sala",
+      "name": "Studio Jogi Wilanów",
+      "city": "Warszawa",
+      "activities": [
+        "Joga",
+        "Stretching"
+      ],
+      "price_per_hour": 110,
+      "schedule": [
+        "2025-12-10 18:00-19:00",
+        "2025-12-10 19:15-20:15",
+        "2025-12-11 18:00-19:00",
+        "2025-12-11 20:00-21:00",
+        "2025-12-12 19:00-20:00",
+        "2025-12-12 20:15-21:15"
+      ]
+    },
+    {
+      "id": 28,
+      "type": "klub",
+      "name": "Zdrofit Ochota",
+      "city": "Warszawa",
+      "activities": [
+        "Zumba",
+        "Pilates",
+        "Cardio"
+      ],
+      "price_per_hour": 60,
+      "schedule": [
+        "2025-11-06 17:00-18:00",
+        "2025-11-06 18:00-19:00",
+        "2025-11-06 19:00-20:00",
+        "2025-11-07 08:00-09:00",
+        "2025-11-07 17:00-18:00",
+        "2025-11-07 18:00-19:00"
+      ]
+    },
+    {
+      "id": 29,
+      "type": "boisko",
+      "name": "Orlik Nowa Huta",
+      "city": "Kraków",
+      "activities": [
+        "Piłka nożna"
+      ],
+      "price_per_hour": 75,
+      "schedule": [
+        "2025-11-24 16:30-17:30",
+        "2025-11-24 17:30-18:30",
+        "2025-11-24 18:30-19:30",
+        "2025-11-25 17:00-18:00",
+        "2025-11-25 18:00-19:00"
+      ]
+    },
+    {
+      "id": 30,
+      "type": "trener",
+      "name": "Trener Julia Krawczyk",
+      "city": "Wrocław",
+      "activities": [
+        "Joga",
+        "Taniec"
+      ],
+      "price_per_hour": 120,
+      "schedule": [
+        "2025-11-17 18:00-19:00",
+        "2025-11-17 19:00-20:00",
+        "2025-11-18 18:00-19:00",
+        "2025-11-18 19:00-20:00",
+        "2025-11-19 17:00-18:00"
+      ]
+    },
+    {
+      "id": 31,
+      "type": "sala",
+      "name": "Centrum Sportu Raszyn",
+      "city": "Warszawa",
+      "activities": [
+        "Koszykówka",
+        "Futsal"
+      ],
+      "price_per_hour": 150,
+      "schedule": [
+        "2025-11-12 18:00-19:00",
+        "2025-11-12 19:00-20:00",
+        "2025-11-12 20:00-21:00",
+        "2025-11-12 21:00-22:00",
+        "2025-11-13 18:00-19:00"
+      ]
+    },
+    {
+      "id": 32,
+      "type": "trener",
+      "name": "Trener Adam Szymański",
+      "city": "Gdańsk",
+      "activities": [
+        "Tenis",
+        "Squash"
+      ],
+      "price_per_hour": 160,
+      "schedule": [
+        "2025-11-08 09:00-10:00",
+        "2025-11-08 10:00-11:00",
+        "2025-11-08 11:00-12:00",
+        "2025-11-09 14:00-15:00",
+        "2025-11-09 15:00-16:00"
+      ]
+    },
+    {
+      "id": 33,
+      "type": "klub",
+      "name": "Calypso Sopot",
+      "city": "Gdańsk",
+      "activities": [
+        "Cardio",
+        "Trening siłowy"
+      ],
+      "price_per_hour": 80,
+      "schedule": [
+        "2025-11-04 17:00-18:00",
+        "2025-11-04 18:00-19:00",
+        "2025-11-04 19:00-20:00",
+        "2025-11-05 07:00-08:00",
+        "2025-11-05 18:00-19:00"
+      ]
+    },
+    {
+      "id": 34,
+      "type": "sala",
+      "name": "Sala Jogi Prana",
+      "city": "Warszawa",
+      "activities": [
+        "Joga",
+        "Medytacja"
+      ],
+      "price_per_hour": 105,
+      "schedule": [
+        "2025-11-26 18:00-19:00",
+        "2025-11-26 19:30-20:30",
+        "2025-11-27 18:00-19:00",
+        "2025-11-27 19:30-20:30",
+        "2025-11-28 20:00-21:00",
+        "2025-11-29 10:00-11:00"
+      ]
+    },
+    {
+      "id": 35,
+      "type": "boisko",
+      "name": "Stadion Miejski Boczny",
+      "city": "Wrocław",
+      "activities": [
+        "Piłka nożna"
+      ],
+      "price_per_hour": 130,
+      "schedule": [
+        "2025-11-10 16:00-17:00",
+        "2025-11-10 17:00-18:00",
+        "2025-11-11 10:00-11:00",
+        "2025-11-11 11:00-12:00",
+        "2025-11-12 17:00-18:00"
+      ]
+    },
+    {
+      "id": 36,
+      "type": "trener",
+      "name": "Trener Monika Zielińska",
+      "city": "Kraków",
+      "activities": [
+        "Pilates",
+        "Rehabilitacja"
+      ],
+      "price_per_hour": 150,
+      "schedule": [
+        "2025-11-14 08:00-09:00",
+        "2025-11-14 09:00-10:00",
+        "2025-11-14 17:00-18:00",
+        "2025-11-15 10:00-11:00",
+        "2025-11-17 18:00-19:00"
+      ]
+    },
+    {
+      "id": 37,
+      "type": "klub",
+      "name": "Hardcore Gym Praga",
+      "city": "Warszawa",
+      "activities": [
+        "Trening siłowy",
+        "Powerlifting"
+      ],
+      "price_per_hour": 50,
+      "schedule": [
+        "2025-11-19 18:00-19:00",
+        "2025-11-19 19:00-20:00",
+        "2025-11-19 20:00-21:00",
+        "2025-11-20 18:00-19:00",
+        "2025-11-20 19:00-20:00"
+      ]
+    },
+    {
+      "id": 38,
+      "type": "sala",
+      "name": "Studio Tańca Rytm",
+      "city": "Poznań",
+      "activities": [
+        "Zumba",
+        "Salsa"
+      ],
+      "price_per_hour": 90,
+      "schedule": [
+        "2025-12-05 18:00-19:00",
+        "2025-12-05 19:00-20:00",
+        "2025-12-05 20:00-21:00",
+        "2025-12-06 11:00-12:00",
+        "2025-12-06 12:00-13:00"
+      ]
+    },
+    {
+      "id": 39,
+      "type": "trener",
+      "name": "Trener Piotr Wiśniewski",
+      "city": "Warszawa",
+      "activities": [
+        "Joga",
+        "Trening funkcjonalny"
+      ],
+      "price_per_hour": 140,
+      "schedule": [
+        "2025-11-03 18:30-19:30",
+        "2025-11-03 19:30-20:30",
+        "2025-11-05 19:00-20:00",
+        "2025-11-05 20:00-21:00",
+        "2025-11-07 18:00-19:00"
+      ]
+    },
+    {
+      "id": 40,
+      "type": "boisko",
+      "name": "Korty Tenisowe Miedzeszyn",
+      "city": "Warszawa",
+      "activities": [
+        "Tenis"
+      ],
+      "price_per_hour": 90,
+      "schedule": [
+        "2025-11-22 10:00-11:00",
+        "2025-11-22 11:00-12:00",
+        "2025-11-22 12:00-13:00",
+        "2025-11-23 13:00-14:00",
+        "2025-11-23 14:00-15:00"
+      ]
+    },
+    {
+      "id": 41,
+      "type": "klub",
+      "name": "CrossFit Stocznia",
+      "city": "Gdańsk",
+      "activities": [
+        "CrossFit",
+        "Trening siłowy"
+      ],
+      "price_per_hour": 85,
+      "schedule": [
+        "2025-11-12 17:30-18:30",
+        "2025-11-12 18:30-19:30",
+        "2025-11-14 07:00-08:00",
+        "2025-11-14 17:30-18:30",
+        "2025-11-14 18:30-19:30"
+      ]
+    },
+    {
+      "id": 42,
+      "type": "sala",
+      "name": "Szkoła Jogi Powiśle",
+      "city": "Warszawa",
+      "activities": [
+        "Joga"
+      ],
+      "price_per_hour": 115,
+      "schedule": [
+        "2025-11-18 18:00-19:00",
+        "2025-11-18 19:15-20:15",
+        "2025-11-19 18:00-19:00",
+        "2025-11-19 19:30-20:30",
+        "2025-11-20 20:00-21:00",
+        "2025-11-21 19:00-20:00"
+      ]
+    },
+    {
+      "id": 43,
+      "type": "trener",
+      "name": "Trener Sebastian Król",
+      "city": "Kraków",
+      "activities": [
+        "MMA",
+        "Kickboxing"
+      ],
+      "price_per_hour": 130,
+      "schedule": [
+        "2025-11-09 18:00-19:30",
+        "2025-11-09 19:30-21:00",
+        "2025-11-11 17:00-18:30",
+        "2025-11-11 18:30-20:00",
+        "2025-11-13 19:00-20:30"
+      ]
+    },
+    {
+      "id": 44,
+      "type": "boisko",
+      "name": "Hala Gier AWF",
+      "city": "Wrocław",
+      "activities": [
+        "Siatkówka",
+        "Koszykówka",
+        "Piłka ręczna"
+      ],
+      "price_per_hour": 160,
+      "schedule": [
+        "2025-11-28 17:00-18:30",
+        "2025-11-28 18:30-20:00",
+        "2025-11-28 20:00-21:30",
+        "2025-11-29 10:00-11:30",
+        "2025-11-29 11:30-13:00"
+      ]
+    },
+    {
+      "id": 45,
+      "type": "sala",
+      "name": "Joga Studio Saska",
+      "city": "Warszawa",
+      "activities": [
+        "Joga"
+      ],
+      "price_per_hour": 100,
+      "schedule": [
+        "2025-12-03 18:00-19:00",
+        "2025-12-03 19:15-20:15",
+        "2025-12-04 18:00-19:00",
+        "2025-12-04 19:30-20:30",
+        "2025-12-05 18:00-19:00",
+        "2025-12-05 20:00-21:00"
+      ]
+    },
+    {
+      "id": 46,
+      "type": "klub",
+      "name": "CityFit Rondo ONZ",
+      "city": "Warszawa",
+      "activities": [
+        "Trening siłowy",
+        "Cardio"
+      ],
+      "price_per_hour": 60,
+      "schedule": [
+        "2025-11-15 00:00-23:59",
+        "2025-11-16 00:00-23:59",
+        "2025-11-17 18:00-19:00",
+        "2025-11-17 19:00-20:00",
+        "2025-11-17 20:00-21:00"
+      ]
+    },
+    {
+      "id": 47,
+      "type": "trener",
+      "name": "Trener Alicja Górska",
+      "city": "Poznań",
+      "activities": [
+        "Joga",
+        "Pilates"
+      ],
+      "price_per_hour": 110,
+      "schedule": [
+        "2025-11-25 17:00-18:00",
+        "2025-11-25 18:00-19:00",
+        "2025-11-26 18:30-19:30",
+        "2025-11-26 19:30-20:30",
+        "2025-11-27 17:00-18:00"
+      ]
+    },
+    {
+      "id": 48,
+      "type": "boisko",
+      "name": "Orlik przy Parku",
+      "city": "Kraków",
+      "activities": [
+        "Koszykówka"
+      ],
+      "price_per_hour": 60,
+      "schedule": [
+        "2025-11-06 15:00-16:00",
+        "2025-11-06 16:00-17:00",
+        "2025-11-07 15:00-16:00",
+        "2025-11-07 16:00-17:00",
+        "2025-11-08 10:00-11:00"
+      ]
+    },
+    {
+      "id": 49,
+      "type": "trener",
+      "name": "Trener Damian Wróbel",
+      "city": "Warszawa",
+      "activities": [
+        "CrossFit",
+        "Boks"
+      ],
+      "price_per_hour": 170,
+      "schedule": [
+        "2025-11-13 18:00-19:00",
+        "2025-11-13 19:00-20:00",
+        "2025-11-13 20:00-21:00",
+        "2025-11-14 18:00-19:00",
+        "2025-11-14 19:00-20:00"
+      ]
+    },
+    {
+      "id": 50,
+      "type": "sala",
+      "name": "Dom Kultury Joga",
+      "city": "Warszawa",
+      "activities": [
+        "Joga",
+        "Tai Chi"
+      ],
+      "price_per_hour": 70,
+      "schedule": [
+        "2025-11-28 18:00-19:00",
+        "2025-11-28 19:15-20:15",
+        "2025-11-29 10:00-11:00",
+        "2025-11-29 11:15-12:15",
+        "2025-12-01 19:00-20:00",
+        "2025-12-01 20:00-21:00"
+      ]
+    }
+  ]
+}
