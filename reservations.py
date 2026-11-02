@@ -26,7 +26,8 @@ def _slot(option: Dict[str, Any]):
     time_range = option.get("time_range")
     if object_id is None or not isinstance(date, str):
         raise ValueError("Reservation requires an object ID and date")
-    datetime.strptime(date, "%Y-%m-%d")
+    if datetime.strptime(date, "%Y-%m-%d").strftime("%Y-%m-%d") != date:
+        raise ValueError("Date must use YYYY-MM-DD")
     if not isinstance(time_range, str) or not re.fullmatch(r"\d{2}:\d{2}-\d{2}:\d{2}", time_range):
         raise ValueError("Time range must use HH:MM-HH:MM")
     start, end = [datetime.strptime(t, "%H:%M").time() for t in time_range.split("-")]

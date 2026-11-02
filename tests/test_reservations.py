@@ -33,7 +33,7 @@ class BookingTests(unittest.TestCase):
         self.assertEqual([r["id"] for r in load_reservations(self.path)], [1, 2, 3, 4, 5])
 
     def test_invalid_slots_do_not_create_file(self):
-        for updates in ({"object_id": None}, {"date": None}, {"date": "bad"},
+        for updates in ({"object_id": None}, {"date": None}, {"date": "bad"}, {"date": "2026-1-3"},
                         {"time_range": "25:00-26:00"}, {"time_range": "20:00-19:00"}):
             with self.subTest(updates=updates), self.assertRaises(ValueError):
                 self.book(**updates)
