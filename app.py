@@ -122,20 +122,24 @@ if last_options:
         if not customer_name.strip() or not customer_email.strip():
             st.warning("Podaj imię i nazwisko oraz email.")
         else:
-            reservation = add_reservation(
-                selected_option,
-                customer_name.strip(),
-                customer_email.strip(),
-                st.session_state.get("last_query", ""),
-            )
-            st.success(
-                "Rezerwacja zapisana. "
-                f"ID: {reservation['id']} | "
-                f"{reservation.get('object_name', 'brak nazwy')} | "
-                f"{reservation.get('date', 'brak daty')} | "
-                f"{reservation.get('time_range', 'brak godzin')} | "
-                f"{reservation.get('price_per_hour', 'brak ceny')} zł/h"
-            )
+            try:
+                reservation = add_reservation(
+                    selected_option,
+                    customer_name.strip(),
+                    customer_email.strip(),
+                    st.session_state.get("last_query", ""),
+                )
+                st.success(
+                    "Rezerwacja zapisana. "
+                    f"ID: {reservation['id']} | "
+                    f"{reservation.get('object_name', 'brak nazwy')} | "
+                    f"{reservation.get('date', 'brak daty')} | "
+                    f"{reservation.get('time_range', 'brak godzin')} | "
+                    f"{reservation.get('price_per_hour', 'brak ceny')} zł/h"
+                )
+            except ValueError as exc:
+                st.warning(str(exc))
+
 else:
     st.info("Najpierw wyszukaj opcje, aby zarezerwować.")
 
